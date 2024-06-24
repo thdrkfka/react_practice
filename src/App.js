@@ -3,7 +3,7 @@ import { Button } from 'bootstrap';
 import './App.css';
 import Hello from './component/Hello';
 import Welcome from './component/Welcome';
-import './App.css'
+import styles from './App.modules.css'
 
 function App() {
   const name ='Tom'
@@ -21,7 +21,7 @@ function App() {
       <Hello/>
       <Welcome/>
       <button> primary button </button>
-      <div className='box'>css 연습 app.js</div>
+      <div className={styles.box}>css 연습 app.js</div>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

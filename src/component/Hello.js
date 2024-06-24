@@ -4,7 +4,7 @@
 // export default Hello;
 
 import World from "./World"
-import './Hello.css'
+import styles from './Hello.modules.css'
 
 export default function Hello() {
   // return <p>Hello</p>;
@@ -18,8 +18,8 @@ export default function Hello() {
         }
       }>Hello</p>
       <World />
-      <div className="box">
-        css 테스트
+      <div className={styles.box}>
+        css 테스트 hello
       </div>
 
     </div>
